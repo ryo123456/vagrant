@@ -1,0 +1,8 @@
+sudo -s
+cd app
+source bin/activate
+cd testproject/
+プログラム修正の時
+vi mapapp/views.py
+動かす時
+python manage.py runserver 0.0.0.0:80
